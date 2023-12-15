@@ -1,0 +1,315 @@
+/* homePage css  */
+
+body{
+    background-color: rgb(245, 245, 220);
+    background-repeat: no-repeat; 
+    background-size: cover; 
+
+}
+.gameName{
+    font-size: 15vh;
+    border: 1vh solid rgb(172, 172, 136);
+    color: rgb(90, 71, 119);
+    text-align: center;
+    font-family:sans-serif;
+    border-radius: 10vh;
+}
+.buttons{
+    
+    display: flex;
+    justify-content:space-evenly;
+    color: rgb(90, 71, 119);
+    margin-top: 40vh;
+}
+
+button{
+    height:10vh;
+    width: 30vh;
+}
+a{
+    text-decoration: none;
+}
+.startBtn{
+
+    font-size: 5vh;
+    border-radius:5vh;
+}
+.instruBtn{
+
+    text-align:center;
+    font-size: 5vh; 
+    border-radius:5vh;
+}
+.moreBtn{
+
+    font-size: 5vh;
+    border-radius:5vh;
+}
+#gameMusic{
+    display: none;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* more-page page css */
+
+.comingSoon{
+    text-align:center;
+    color: rgb(90, 71, 119);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 10vh;
+}
+#backBtn{
+   margin:2vh 77vh ;
+}
+
+
+
+
+/* WelcomePage css */
+
+.welcome{
+    text-align:center;
+    color: rgb(90, 71, 119);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 10vh;
+}
+.playerName{
+    text-align:center;
+    color: rgb(90, 71, 119);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 5vh;
+}
+.playerNickname{
+    text-align:center;
+    color: rgb(90, 71, 119);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 5vh;
+}
+.playerNicknameBox,.playerNameinputBox{
+    height: 10vh;
+    width: 50vh;
+    font-size: 5vh;
+    border-radius:5vh;
+   position: relative;
+   left: 47vw;  
+}
+
+.center{
+    text-align: center;
+}
+
+.back{
+    display: flex;
+    justify-content:space-evenly;
+    margin: 30vh;
+
+}
+
+.buttonss{
+    display: flex;
+    justify-content:space-evenly;
+    color: rgb(90, 71, 119);
+    margin-top: 4vh;
+}
+
+.submitBtn{
+    height:10vh;
+    width: 30vh;
+    font-size: 5vh;
+    border-radius:5vh;
+}
+.playBtn{
+    height:10vh;
+    width: 30vh;
+    font-size: 5vh;
+    border-radius: 5vh; 
+}
+.backBtn{
+    height:10vh;
+    width: 30vh;
+    font-size: 5vh;
+    border-radius: 5vh;
+}
+
+
+
+
+
+
+
+
+
+/* intro-page page css */
+
+.aboutPage{
+    text-align:center;
+    color: rgb(64, 38, 38);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.content{
+    margin-top:20vh;
+    font-size: 4vh;
+}
+.about{
+    font-size: 10vh;
+}
+
+
+
+
+
+
+
+
+/* game-main page css */
+
+.grid {
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr 1fr;
+    grid-template-rows: 0.5fr 0.5fr 0.5fr 1fr;
+    width: 80vh;
+    height: 80vh;
+    padding: 3vh 55vh 20vh;
+    margin:0 auto;
+    
+    
+  }
+
+.grid img{
+    height: 14vh;
+    width:14vh;
+    border-radius: 2vh;
+    border: 1vh solid rgb(195, 195, 155);
+    margin: 1vh
+    
+}
+
+body{
+    background-image: url("https://i.stack.imgur.com/TUou4.png");
+    background-color: rgb(245, 245, 220);
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+
+#playerName{
+  color:rgb(64, 38, 38) ;
+}
+.playersName{
+    color:rgb(64, 38, 38);
+    text-align: center;
+    margin: 5vh 10vw;
+}
+.score{
+    font-size: 5vh;
+    text-align: center;
+    margin: 5vh 10vw;
+
+    color: rgb(64, 38, 38);
+}
+.felx{
+    display: flex;
+    /* justify-content:space-between; */
+}
+.timeLift{
+    font-size: 2vh;
+    margin-left: 30vh;
+    color:rgb(64, 38, 38) ;
+
+}
+
+
+
+
+
+
+
+/* resultPage css */
+.Result{
+    text-align:center;
+    font-size: 10vh;
+    color: rgb(90, 71, 119);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+} 
+.yourscore{
+    font-size: 5vh;
+    text-align: center;
+    color: rgb(64, 38, 38);
+}
+
+.timeTaken{
+    font-size: 5vh;
+    color: rgb(64, 38, 38);
+}
+.phase{
+    font-size: 5vh;
+    color: rgb(64, 38, 38);
+}
+
+
+@media screen and (min-width: 320px) {
+    .gameName{
+        text-align:center;
+        font-size: 10vh;
+    }
+    .buttons{
+        display: flex;
+        justify-content:space-evenly;
+        margin-top: 46vh;
+    }
+    .buttonss{
+        display: flex;
+        justify-content:space-evenly;
+        margin-top: 10vh;
+    }
+    .playerNicknameBox,.playerNameinputBox{
+        margin-left: -18vh;
+        /* width: 30vh; */
+    }
+    .playersName{
+      margin-left: 11vh;
+    }
+    .score{
+       margin-left: 11vh;
+       
+    }
+    .grid{
+        margin: 5vh, auto;
+        padding: 0vh;
+        margin-top: 15vh;
+    }
+    .grid img{
+       width: 13vh;
+       height: 14vh;
+    }
+    .Result{
+        text-align: center;
+    }
+    .phase{
+        text-align: center;
+    }
+    .yourScore{
+       margin-left: 0vh;
+    }
+    .backBtnx{
+        margin-left:-5vh;
+        font-size: 5vh;
+        border-radius: 5vh;
+      
+    }
+    .felx{
+        display:inline;
+    }
+
+}
+    
